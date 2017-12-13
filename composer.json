@@ -3,7 +3,8 @@
     "homepage": "http://www.workerman.net",
     "license" : "MIT",
     "require": {
-        "workerman/phpsocket.io-for-win" : ">=1.0.0"
+        "workerman/phpsocket.io": "^1.1",
+        "workerman/workerman": "^3.5"
     },
     "autoload": {
         "psr-4": {"GatewayWorker\\": "./src"}
