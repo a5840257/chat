@@ -13,6 +13,7 @@
  
 	//$repo = $json['repository']['name'];
  
-	$cmd="cd $target && git pull origin master";
+	$cmd="cd $target && git pull origin masteri 2>&1";
 	
-	shell_exec($cmd);
+	$msg = shell_exec($cmd);
+	var_dump($msg);
